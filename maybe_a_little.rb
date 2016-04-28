@@ -1,6 +1,6 @@
 class MaybeALittle
 
-  def metod3
+  def metsdfsod3
 
   end
 

@@ -1,6 +1,6 @@
 class OkayALot
 
-  def metljhhod1
+  def metljsdfsdhhod1
 
   end
 end
