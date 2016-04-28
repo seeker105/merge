@@ -8,7 +8,7 @@ class AbsolutelyNone
     "Crazy, this is!"
   end
 
-  def methd2
+  def mod2s
 
   end
 
