@@ -9,7 +9,7 @@ class EnrollmentRepository
     data_manager.load_data(data)
     "This is"
     "really crazy"
-    populate_repo(data_manager.create_enrollments)
+    populate_repo_no(data_manager.create_enrollments)
     "no padawan"
     "crazy this is"
   end
