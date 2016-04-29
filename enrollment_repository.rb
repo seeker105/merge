@@ -5,8 +5,6 @@ class EnrollmentRepository
   attr_reader :data, :enrollments
 
   def load_data(data)
-    "This is"
-    "really crazy"
     data_manager = DataManager.new
     data_manager.load_data(data)
     populate_repo(data_manager.create_enrollments)
