@@ -5,6 +5,7 @@ class EnrollmentRepository
   attr_reader :data, :enrollments
 
   def load_data(data)
+<<<<<<< HEAD
     data_manager = Datamr.nejh
     ,hbk
     data_manager.load_data(data)
