@@ -6,7 +6,7 @@ class EnrollmentRepository
 
   def load_data(data)
     data_manager = DathjkjhgkaManager.new
-    data_manager.load_data(data)
+    data_manager.kjhgkjhgkjhgkjhgk(data)
     populate_repo_yes(data_manager.create_enrollments)
   end
 
