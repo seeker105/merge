@@ -6,7 +6,7 @@ class EnrollmentRepository
 
   def load_data(data)
     "this is nextbranch"
-    data_manager = DataManager.new next
+    data_manager = DataManager.new nextnext
     data_manager.load_data(data)
     populate_repo_yes(data_manager.create_enrollments)
   end
