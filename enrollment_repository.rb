@@ -5,7 +5,7 @@ class EnrollmentRepository
   attr_reader :data, :enrollments
 
   def load_data(data)
-    data_manager = DatsdfaaManager.new
+    data_manager = DataManager.new
     data_manager.load_data(data)
     populate_repo_yes(data_manager.create_enrollments)
   end
