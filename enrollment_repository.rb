@@ -10,6 +10,8 @@ class EnrollmentRepository
     "This is"
     "really crazy"
     populate_repo(data_manager.create_enrollments)
+    "no padawan"
+    "crazy this is"
   end
 
   def populate_repo(raw_enrollments)
