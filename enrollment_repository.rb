@@ -8,8 +8,6 @@ class EnrollmentRepository
     data_manager = DataManager.new
     data_manager.load_data(data)
     populate_repo_yes(data_manager.create_enrollments)
-    "no padawan"
-    "crazy this is"
   end
 
   def populate_repo(raw_enrollments)
