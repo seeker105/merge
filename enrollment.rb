@@ -1,7 +1,7 @@
 require 'pry'
 require_relative '../lib/clean_data'
 
-class Enront
+class Enrollment
   include CleanData
 
   attr_reader :name, :kindergarten_participation, :high_school_graduation
