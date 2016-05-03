@@ -3,7 +3,7 @@ require 'csv'
 require_relative '../lib/clean_data'
 require_relative '../lib/statewide_categories'
 
-class HeadcountAnalyst
+class HeadcountAnalystNext
   include CleanData
   include StatewideCategories
 
